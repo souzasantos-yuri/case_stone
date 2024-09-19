@@ -1,0 +1,18 @@
+a) Com as informações presentes é possível aplicar análises de sazonalidade, com Data e Soma de transações por dia, semana ou mês. Assim podendo saber quando durante um certo range de data é o melhor dia ou melhores dias de compra.
+Inversamente, é mais comum os finais de semana terem menos compras, pois dependendo do serviço não há expediente, não há despacho de frete, não há pessoas disponíveis para atendimento, etc.
+
+Ainda sobre o cliente, se o site é um ecommerce, dá para partir para o lado do processo do cliente do Login até a ThankYou Page.
+Assim é possível fazer um funil de comportamento, taxa de conversão, intenção de compra, funil de checkout
+
+Se o site for um blog que possui conteúdo e formulários, podemos medir intenção de leads, leitura de página, tempo médio de sessão, etc.
+
+b) Dados não existentes em posse direta da companhia geralmente giram em torno de SEO, dados de mídias que não são captados pelo Google Analytics, Telemetria, Backend dos produtos.
+Principalmente levando em consideração mídias pagas, pelo uso de API é possível  extrair informações de campanhas de marketing para Facebook, Google Ads, etc.
+Somado a isso, se o cliente for app based, Applsflyer é uma opção para gerir atribuição. Também tem a possibilidade de pegar dados de WhatsApp pela Blip, por exemplo, se existir algum direcionamento para chats da Meta (Whats, Instagram)
+
+c) Com tudo que falei acima é possível fazer um projeto completo de Web Analytics e cruzar com todos os dados de backend do cliente. Assim tendo a precisão das informações no frond end (tracking + comportamento de usuário) e do backend (dados transacionais, dados de leads, etc)
+O que eu posso propor: 
+
+Para clientes ecommerce: Criação e mensuração de campanhas para Google Ads e Facebook, ambas mostrando produtos e direcionando para um site, possibilitanto o tracking do usuário desde a landing page até a navegação nos produtos, carrinho, checkout e compra. Pós compra: Safras e Churn
+Para clientes de leads: Criação e mensuração de campanhas com foco em envio de formulários, medindo eficiência dos forms, fazendo um funil básico para ver onde a pessoa desiste do lead, definir a qualidade do lead pela plataforma de escolha do cliente e possivelmente linkando com uma conversão offline
+Para clientes 100% custom: Dependendo da situação aplicar meio a meio de cada, se for propício. Se não, então é o estudar o caso específico do cliente.
